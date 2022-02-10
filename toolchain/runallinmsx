@@ -1,0 +1,3 @@
+echo 10 load\""$1"\",r > /tmp/autoexec.bas
+msxtar -cf /tmp/image.dsk /tmp/autoexec.bas *
+/Applications/BrunixMac.app/Contents/MacOS/BrunixMac /tmp/image.dsk
